@@ -135,6 +135,67 @@ The block below will add the actual content from a page or post:
 <!-- /wp:spacer -->
 ~~~~
 
+The post content block is not as advanced as the *post query*. 
+
+## Post Query
+
+In a post query we ask the database for certain informations. We can filter these informations by taxonomies, like *categories* or *tags*. Here is a query:
+
+~~~~
+<!-- wp:query {"queryId":9,"query":{"perPage":7,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":true}} -->
+<div class="wp-block-query"><!-- wp:post-template {"layout":{"type":"grid","columnCount":3}} -->
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"30px","right":"30px","bottom":"30px","left":"30px"}}},"layout":{"inherit":false}} -->
+<div class="wp-block-group" style="padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px"><!-- wp:post-title {"isLink":true} /-->
+
+<!-- wp:post-content /-->
+<!-- wp:post-date /--></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:query -->
+~~~~
+
+### Filters
+
+You can filter the content by these parameters:
+
+~~~~
+{"perPage":7, // = number of posts shown
+"pages":0, // = pages
+"offset":0, // if you have more than one loop change the offset
+"postType":"post", // or page
+"order":"desc", // or asc
+"orderBy":"date", // try: author, id, etc.
+"author":"", // filter a certain author
+"search":"", // e.g. a category
+"exclude":[], // what you don't want to see
+"sticky":"exclude", // or include
+"inherit":true} // or false
+~~~~
+
+Since you can have more than one loop on a page the offset should match the pages of the previous query. In the case above we could create a new query, like:
+
+~~~~
+{"perPage":7, // = number of posts shown
+"pages":0, // = pages
+**"offset":7**, // if you have more than one loop change the offset
+"postType":"post", // or page
+"order":"desc", // or asc
+"orderBy":"date", // try: author, id, etc.
+"author":"", // filter a certain author
+"search":"", // e.g. a category
+"exclude":[], // what you don't want to see
+"sticky":"exclude", // or include
+"inherit":true} // or false
+~~~~
+
+## Post Excerpt
+
+The excerpt is a short teaser for a post or page. 
+
+~~~~
+<!-- wp:post-excerpt /-->
+~~~~
+
 ## A Template Sample
 
 Here is a template sample, this samle is inspired by Carolina Nymark's tutorial op.cit.:
