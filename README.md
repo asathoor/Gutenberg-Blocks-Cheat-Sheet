@@ -6,6 +6,18 @@
 
  Most humans will not be able to remember the names of the blocks. But you can create your design in Gutenberg. When you like what you see change the editor to code view. Now you can save your design in one of the template files. E.g. if you want the design to be your front page save the Gutenberg Markup in *front-page.html*.
 
+ ## Why Create a Theme from Scratch
+
+ The polished themes are nice. But, you learn a *lot* about Gutenberg when you create your own theme. Then you are not limited by the themes any more. You'll be able to make your own stuff. Try to create a theme - and you will be able to add new features to any block based theme. 
+
+ Often the *modus operandi* is: copy a file like ./templates/single.html to ./templates/single-SLUG.html - and then add the features you need. Perhaps you want to add your favorite gallery that you made in Vanilla JavaScript. By your own ingenium device similar samples.
+
+ ## Sample Theme
+
+ Here is my sample theme. It was made when I followed Nymark's tutorial:
+
+ * [Theme on Github](https://github.com/asathoor/myBlock)
+
  ## The File Tree
 
  Will look something along these lines. You can add a styles directory for alternative theme.json files. Templates and template parts are HTML files. The styling is primarily made via theme.json - but you can add CSS rules to style.css.
@@ -159,6 +171,10 @@ Here is a template sample, this samle is inspired by Carolina Nymark's tutorial 
 ## theme.json - options and consistency
 
 The *theme.json* file the new way for styling WP. Here we define the fonts, colors and style options of the solution. The *theme.json* file will enable options in the Gutenberg editor - so that you can choose colors, gradients, fonts and so on. It is also possible to lock options, so that the ordinary user is forced to use the theme colors. In this way we can ensure design consistency.
+
+Below is my link to the *theme.json*:
+
+* [theme.json sample](https://github.com/asathoor/myBlock/blob/main/theme.json)
 
 
 ## A living document
