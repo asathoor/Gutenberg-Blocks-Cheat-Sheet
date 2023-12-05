@@ -156,6 +156,11 @@ Here is a template sample, this samle is inspired by Carolina Nymark's tutorial 
 <!-- wp:template-part {"slug":"footer","tagName":"footer","className":"site-footer"} /-->
 ~~~~
 
+## theme.json - options and consistency
+
+The *theme.json* file the new way for styling WP. Here we define the fonts, colors and style options of the solution. The *theme.json* file will enable options in the Gutenberg editor - so that you can choose colors, gradients, fonts and so on. It is also possible to lock options, so that the ordinary user is forced to use the theme colors. In this way we can ensure design consistency.
+
+
 ## A living document
 
 This is a living document. If you have suggestions for more block samples, please let me know.
