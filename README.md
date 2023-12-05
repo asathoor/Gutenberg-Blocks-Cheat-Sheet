@@ -246,7 +246,7 @@ Since the theme code is based on JavaScript automation is possible. There are se
 
 ## Responsive CSS
 
-The *@media-rules* could be added to the *style.css* for smaller - og very large devices. Now this should be possible, and we should not need any plugins for the task. If you use the inspect tool, you can style any HTML element on the page. Here you could use the breakpoints indicated in the general layout.
+The *@media-rules* could be added to the *style.css* for smaller - or very large devices. Now this should be possible, and we should not need any plugins for the task. If you use the inspect tool, you can style any HTML element on the page. Here you could use the breakpoints indicated in the general layout.
 
 **Tip:** The *!important* clause at the end of the CSS rules is important - this will overrule the global theme settings from *theme.json*. 
 
