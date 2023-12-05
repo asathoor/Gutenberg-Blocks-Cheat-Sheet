@@ -2,7 +2,11 @@
  
  Markup for Gutenberg is written in HTML comments with added JSON attributes or features. The cheatsheet is inspired by [ Carolina Nymark's tutorials ](https://fullsiteediting.com/courses/full-site-editing-for-theme-developers/).
 
- ## File Tree
+ Since everything is made with HTML, CSS and JavaScript you will be able to create any kind of content or design in a block based theme. The Gutenberg specific blocks are comments with a JSON object.
+
+ Most humans will not be able to remember the names of the blocks. But you can create your design in Gutenberg. When you like what you see change the editor to code view. Now you can save your design in one of the template files. E.g. if you want the design to be your front page save the Gutenberg Markup in *front-page.html*.
+
+ ## The File Tree
 
  Will look something along these lines. You can add a styles directory for alternative theme.json files. Templates and template parts are HTML files. The styling is primarily made via theme.json - but you can add CSS rules to style.css.
 
@@ -24,7 +28,7 @@
 └── theme.json
 ~~~~
 
-(and yes after years and years I still love the Bash tree command)
+(And yes, after years and years I still love the *Bash* tree command)
 
  ## Include Header
 
