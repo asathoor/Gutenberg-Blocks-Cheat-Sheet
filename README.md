@@ -2,6 +2,30 @@
  
  Markup for Gutenberg is written in HTML comments with added JSON attributes or features. The cheatsheet is inspired by [ Carolina Nymark's tutorials ](https://fullsiteediting.com/courses/full-site-editing-for-theme-developers/).
 
+ ## File Tree
+
+ Will look something along these lines. You can add a styles directory for alternative theme.json files. Templates and template parts are HTML files. The styling is primarily made via theme.json - but you can add CSS rules to style.css.
+
+~~~~
+ ── functions.php
+├── parts
+│   ├── footer.html
+│   └── header.html
+├── style.css
+├── templates
+│   ├── archive.html
+│   ├── front-page.html
+│   ├── index.html
+│   ├── page.html
+│   ├── search.html
+│   ├── single-map.html
+│   ├── single-nocomments.html
+│   └── single.html
+└── theme.json
+~~~~
+
+(and yes after years and years I still love the Bash tree command)
+
  ## Include Header
 
 ~~~~
