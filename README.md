@@ -1,6 +1,6 @@
 # Gutenberg Blocks Cheat Sheet
  
- Markup for Gutenberg is written in HTML comments with added JSON attributes or features. The cheatsheet is inspired by [ Carolina Nymark's tutorials ](https://fullsiteediting.com/courses/full-site-editing-for-theme-developers/). But I have tried to simplify the content in a way that's more easy to remember - at least for me.
+ Markup for Gutenberg is written in HTML comments with added JSON attributes or features. The cheatsheet is inspired by [ Carolina Nymark's tutorials ](https://fullsiteediting.com/lessons/creating-block-based-themes/). But I have tried to simplify the content in a way that's more easy to remember - at least for me.
 
  Since everything is made with HTML, CSS and JavaScript you will be able to create any kind of content or design in a block based theme. The Gutenberg specific blocks are comments with a JSON object.
 
