@@ -132,12 +132,9 @@ The block below will add the actual content from a page or post:
 
 ~~~~
 <!-- wp:post-content /-->
-<!-- wp:spacer {"height":"40px"} -->
-    <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer -->
 ~~~~
 
-The post content block is not as advanced as the *post query*. 
+Yep! That's all it takes. However, the post content block is not as advanced as the *post query*. 
 
 ## Post Query
 
