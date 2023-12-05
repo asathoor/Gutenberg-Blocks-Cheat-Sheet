@@ -247,6 +247,10 @@ Since the theme code is based on JavaScript automation is possible. There are se
 
 * [Nymark: Theme Generator](https://fullsiteediting.com/block-theme-generator/)
 
+## Responsive CSS
+
+*@media-rules* could be added to the *style.css* for smaller - og very large devices. Now this should be possible, and we should not need any plugins for the task. 
+
 ## A living document
 
 This is a living document. If you have suggestions for more block samples, please let me know.
