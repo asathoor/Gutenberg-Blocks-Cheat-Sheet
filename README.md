@@ -238,6 +238,12 @@ Below is my link to the *theme.json*:
 * [theme.json sample](https://github.com/asathoor/myBlock/blob/main/theme.json)
 
 
+## Theme Generators
+
+Since the theme code is based on JavaScript automation is possible. There are several theme generators on the web.
+
+* [Nymark: Theme Generator](https://fullsiteediting.com/block-theme-generator/)
+
 ## A living document
 
 This is a living document. If you have suggestions for more block samples, please let me know.
