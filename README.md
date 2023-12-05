@@ -45,7 +45,7 @@
  ## Include Header
 
 ~~~~
-    <!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"site-header"} /-->
 ~~~~
 
 ## Include Footer
@@ -75,11 +75,13 @@ Note that the **slug** is the first part of the filename. You just omit the .htm
 <!-- wp:group {"tagName":"main","layout":{"type":"constrained"}} -->
     <main class="wp-block-group">
 
-        ... you can add more content here ...
+        ... you can add more markup/content here ...
 
     </main>
 <!-- /wp:group -->
 ~~~~
+
+For a complete page sample, see below.
 
 ## Custom HTML
 
