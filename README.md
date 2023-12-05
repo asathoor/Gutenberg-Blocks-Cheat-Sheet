@@ -249,7 +249,34 @@ Since the theme code is based on JavaScript automation is possible. There are se
 
 ## Responsive CSS
 
-*@media-rules* could be added to the *style.css* for smaller - og very large devices. Now this should be possible, and we should not need any plugins for the task. 
+The *@media-rules* could be added to the *style.css* for smaller - og very large devices. Now this should be possible, and we should not need any plugins for the task. If you use the inspect tool, you can style any HTML element on the page. Here you could use the breakpoints indicated in the general layout.
+
+**Tip:** The *!important* clause at the end of the CSS rules is important - this will overrule the global theme settings from *theme.json*. 
+
+~~~~
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: red !important;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 700px) {
+    body{
+        background-color: aqua !important;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: var(--wp--preset--color--contrast) !important;
+    }   
+}
+~~~~
+
+Of course the background-color is just one HTML element, and this sample is perhaps not the most useful. However, it's a proof of concept. You can style WordPress like any other webpage!
 
 ## A living document
 
