@@ -238,6 +238,7 @@ The *theme.json* file the new way for styling WP. Here we define the fonts, colo
 Below is my link to the *theme.json*:
 
 * [theme.json sample](https://github.com/asathoor/myBlock/blob/main/theme.json)
+* [Nymark's theme.json](https://github.com/carolinan/fullsiteediting/blob/course/Lessons/lesson-five/theme.json).
 
 
 ## Theme Generators
