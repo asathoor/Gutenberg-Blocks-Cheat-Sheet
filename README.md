@@ -172,7 +172,7 @@ You can filter the content by these parameters:
 "inherit":true} // or false
 ~~~~
 
-Since you can have more than one loop on a page the offset should match the pages of the previous query. In the case above we could create a new query, like:
+Since you can have more than one queries on a page the offset should match the pages of the previous query. In the case above we could create a new query, like:
 
 ~~~~
 {"perPage":7, // = number of posts shown
