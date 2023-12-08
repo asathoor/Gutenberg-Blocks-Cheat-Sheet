@@ -275,6 +275,8 @@ The *@media-rules* could be added to the *style.css* for smaller - or very large
 
 Of course the background-color is just one HTML element, and this sample is perhaps not the most useful. However, it's a proof of concept. You can style WordPress like any other webpage!
 
+Normally I would not define the background color in this way, since we overrule whatever the user is trying to acheive with background colors in Gutenberg. But, it is a demonstration of the fact that you can style anything in your WP theme by additional CSS.
+
 ## A living document
 
 This is a living document. If you have suggestions for more block samples, please let me know.
