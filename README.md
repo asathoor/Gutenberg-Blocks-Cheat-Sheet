@@ -31,6 +31,39 @@ Here is the file structure for the minimal theme:
 
 However, in practise it's nice to have template parts like headers, footers, sidebars or templates for single block posts and pages. Also a functions.php file may come in handy, if you want to include JavaScript libraries or CSS-files. 
 
+### style.css
+
+In block based themes we try to add as much CSS as possible to theme.json. But  the comment in this file will define the theme, so that you can select it in the Dashboard.
+
+~~~~
+/*
+Theme Name: Zimzalabim
+Author: Per Thykjaer Jensen
+Description: My first shot at a block based theme. Based on this tutorial: https://fullsiteediting.com/lessons/creating-block-based-themes/
+Version: 0.1
+Requires at least: 6.0
+Tested up to: 6.3
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+Text Domain: zimzalabim
+*/
+~~~~
+
+### index.html
+
+The ``./templates/index.html` should be able to present the content, e.g. like this:
+
+~~~~
+<!-- wp:post-content /-->
+~~~~
+
+### theme.json
+
+See [my page about theme.json](https://github.com/asathoor/Gutenberg-Blocks-Cheat-Sheet/blob/main/themeJson.md)
+
+### screenshot.png
+
+Is an image, that will present your theme visually in the Dashboard. This file is optional, but your theme will look more professional if it's in there.
 
  ## A Sample Theme
 
