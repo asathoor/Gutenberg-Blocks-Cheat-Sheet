@@ -60,6 +60,10 @@ However, in practise it's nice to have template parts like headers, footers, sid
 └── theme.json
 ~~~~
 
+## WordPress Markup
+
+With Gutenberg WordPress has it's own markup. If you know HTML, it's obvious that the WP markup is similar. But there are strange looking comments - and these "comments" will make WP come alive.
+
  ## Include Header
 
 ~~~~
