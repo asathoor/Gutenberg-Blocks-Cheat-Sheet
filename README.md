@@ -32,7 +32,7 @@ Here is the file structure for the minimal theme:
 However, in practise it's nice to have template parts like headers, footers, sidebars or templates for single block posts and pages. Also a functions.php file may come in handy, if you want to include JavaScript libraries or CSS-files. 
 
 
- ## Sample Theme
+ ## A Sample Theme
 
  Here is my sample theme. It was made when I followed Nymark's tutorial:
 
@@ -59,8 +59,6 @@ However, in practise it's nice to have template parts like headers, footers, sid
 │   └── single.html
 └── theme.json
 ~~~~
-
-(And yes, after years and years I still love the *Bash* tree command)
 
  ## Include Header
 
