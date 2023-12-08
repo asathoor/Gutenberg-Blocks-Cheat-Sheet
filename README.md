@@ -12,6 +12,26 @@
 
  Often the *modus operandi* is: copy a file like ./templates/single.html to ./templates/single-SLUG.html - and then add the features you need. Perhaps you want to add your favorite gallery that you made in Vanilla JavaScript. By your own ingenium device similar samples.
 
+If you know *theme.json* you will be able to:
+
+* Add new features to a theme.
+* Create style variations (e.g. for design tests)
+* Create themes from scratch
+
+## The minimal theme
+
+Here is the file structure for the minimal theme:
+
+~~~~
+├── style.css
+├── templates
+│   ├── index.html
+└── theme.json
+~~~~
+
+However, in practise it's nice to have template parts like headers, footers, sidebars or templates for single block posts and pages.
+
+
  ## Sample Theme
 
  Here is my sample theme. It was made when I followed Nymark's tutorial:
