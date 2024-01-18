@@ -345,9 +345,9 @@ Of course the background-color is just one HTML element, and this sample is perh
 
 Normally I would not define the background color in this way, since we overrule whatever the user is trying to acheive with background colors in Gutenberg. But, it is a demonstration of the fact that you can style anything in your WP theme by additional CSS.
 
-## Add a Menu
+## Add a Menu (Navigation)
 
-You can add a menu anywhere if you know the reference number of the menu.
+You can add a menu - or rather a navigation block - anywhere if you know the reference number of the menu.
 
 ~~~~
 <!-- wp:navigation 
