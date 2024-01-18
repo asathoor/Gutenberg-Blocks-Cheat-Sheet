@@ -109,6 +109,8 @@ With Gutenberg WordPress has it's own markup. If you know HTML, it's obvious tha
 
  Now you can paste the relevant markup in your HTML file. Now you can get any WP content into your HTML files.
 
+ You can find a thorough list of most blocks here: [Gutenberg Blocks - a complete list of all ...](https://gogutenberg.com/blocks/).
+
 
  ## Include Header
 
