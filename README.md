@@ -332,6 +332,37 @@ Of course the background-color is just one HTML element, and this sample is perh
 
 Normally I would not define the background color in this way, since we overrule whatever the user is trying to acheive with background colors in Gutenberg. But, it is a demonstration of the fact that you can style anything in your WP theme by additional CSS.
 
+## Add a Menu
+
+You can add a menu anywhere if you know the reference number of the menu.
+
+~~~~
+<!-- wp:navigation 
+	{"ref":62,
+		"overlayMenu":"never",
+		"layout":{"type":"flex","justifyContent":"center","orientation":"vertical"
+		}
+	} 
+/-->
+~~~~
+
+But how do we get the reference number? An easy short cut is to create a new page. Add a menu or more. Then open the code editor. Now you can copy the menu snippets.
+
+## How to add Images by Markup
+
+Here is the typical image markup:
+
+~~~~
+<!-- wp:image {"id":705,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://thoth.dk/wp-content/uploads/2023/02/witch-03.jpeg" alt="" class="wp-image-705"/></figure>
+<!-- /wp:image -->
+~~~~
+
+Note how the image block contains the markup for an image. And that the image is inside a `<figure>` element. You can also see, that this image has the class `class="wp-image-705"`. 
+
+With informations like this you can style images according to your creative will.
+
+
 ## A living document
 
 This is a living document. If you have suggestions for more block samples, please let me know.
