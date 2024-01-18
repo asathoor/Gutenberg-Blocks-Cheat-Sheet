@@ -6,7 +6,8 @@
 
  Most humans will not be able to remember the names of the blocks. But you can create your design in Gutenberg. When you like what you see change the editor to code view. Now you can save your design in one of the template files. E.g. if you want the design to be your front page save the Gutenberg Markup in *front-page.html*.
 
- ## Why Create a Theme from Scratch
+
+ ## Create a Theme from Scratch
 
  The polished themes are nice. But, you learn a *lot* about Gutenberg when you create your own theme. Then you are not limited by the themes any more. You'll be able to make your own stuff. Try to create a theme - and you will be able to add new features to any block based theme. 
 
@@ -96,6 +97,18 @@ Is an image, that will present your theme visually in the Dashboard. This file i
 ## WordPress Markup
 
 With Gutenberg WordPress has it's own markup. If you know HTML, it's obvious that the WP markup is similar. But there are strange looking comments - and these "comments" will make WP come alive.
+
+## How to get the markup for any block
+
+ You don't have to remember all the blocks that you see here. An easy way to get the markup you need is:
+
+ * Create a new page or post
+ * Add the block you need
+ * Change from *visual editor* to *code editor*
+ * Copy the markup
+
+ Now you can paste the relevant markup in your HTML file. Now you can get any WP content into your HTML files.
+
 
  ## Include Header
 
